@@ -69,7 +69,7 @@ Export list for 192.168.0.45:
 /home/karl               *  
 nfs> mount /home/zatiel 
 Using a privileged port (1020) 
-Mount `/home/karl', TCP, transfer size 65536 bytes. 
+Mount `/home/zatiel', TCP, transfer size 65536 bytes. 
 nfs> ls -l 
 drwxr-xr-x  3     1001  1001      4096  Apr  5  2023  . 
 drwxr-xr-x  3     1001  1001      4096  Apr  5  2023  .. 
