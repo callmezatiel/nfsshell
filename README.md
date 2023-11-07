@@ -92,3 +92,7 @@ id_rsa
 id_rsa.pub 
 user.txt 
 nfs>  
+```
+
+## Preview
+[![NFSShell.png](https://i.postimg.cc/nL5xRLRN/NFSShell.png)](https://postimg.cc/67dFTBNh)
