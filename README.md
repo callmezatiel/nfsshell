@@ -8,7 +8,18 @@ Prerequisites
 
 Dependencies
 
-* libreadline-dev libncurses5-dev 
+* libreadline-dev libncurses5-dev git
+
+# Installation
+```
+- sudo su
+- git clone http://github.com/callmezatiel/nfsshell
+- cd nfsshell
+- chmod +x nfs
+- sudo ./nfs
+
+```
+
 
 # Help menu: 
 
