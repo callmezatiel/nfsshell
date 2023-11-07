@@ -4,16 +4,13 @@
 NFS shell that provides user level access to an NFS server, over UDP or TCP, supports source routing and "secure" (privileged port) mounts. It's a useful tool to manually check (or show) security problems after a security scanner has detected them.
 
 Prerequisites
-Linux System
+* Linux System
 
 Dependencies
 
 * libreadline-dev libncurses5-dev 
 
 # Help menu: 
-
-
-
 
 ```
 nfs> help 
@@ -52,25 +49,25 @@ mknod <name> [b/c major minor] [p] - make device
 # Usage
 
 ```
-root@kali:/opt/nfsshell# ./nfsshell  
+root@kali:/opt/nfsshell# ./nfs
 nfs> host 192.168.0.45 
 Using a privileged port (1021) 
 Open 192.168.0.45 (192.168.0.45) TCP 
 nfs> export 
 Export list for 192.168.0.45: 
 /home/karl               *  
-nfs> mount /home/karl 
+nfs> mount /home/zatiel 
 Using a privileged port (1020) 
 Mount `/home/karl', TCP, transfer size 65536 bytes. 
 nfs> ls -l 
-drwxr-xr-x  3     1001  1001      4096  Mar  5  2019  . 
-drwxr-xr-x  3     1001  1001      4096  Mar  5  2019  .. 
-drwxr-xr-x  3     1001  1001      4096  Mar  5  2019  .bash_history 
-drwxr-xr-x  3     1001  1001      4096  Mar  5  2019  .bash_logout 
-drwxr-xr-x  3     1001  1001      4096  Mar  5  2019  .bashrc 
-drwxr-xr-x  3     1001  1001      4096  Mar  5  2019  .lesshst 
-drwxr-xr-x  3     1001  1001      4096  Mar  5  2019  .profile 
-drwxr-xr-x  3     1001  1001      4096  Mar  5  2019  .ssh 
+drwxr-xr-x  3     1001  1001      4096  Apr  5  2023  . 
+drwxr-xr-x  3     1001  1001      4096  Apr  5  2023  .. 
+drwxr-xr-x  3     1001  1001      4096  Apr  5  2023  .bash_history 
+drwxr-xr-x  3     1001  1001      4096  Apr  5  2023  .bash_logout 
+drwxr-xr-x  3     1001  1001      4096  Apr  5  2023  .bashrc 
+drwxr-xr-x  3     1001  1001      4096  Apr  5  2023  .lesshst 
+drwxr-xr-x  3     1001  1001      4096  Apr  5  2023  .profile 
+drwxr-xr-x  3     1001  1001      4096  Apr  5  2023  .ssh 
 nfs> cd .ssh 
 nfs> ls 
 Readdir failed: Permission denied 
